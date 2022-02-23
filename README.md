@@ -11,7 +11,7 @@ In this project, the main goal is to analyze the results of an A/B test run by a
 <br/> * It is acknowledged that Well-designed marketing and Promotional Strategies ensure long-term success, bring in more customers and ensure profitability for businesses. 
 So here, Assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information.
 
-[Project 3: TMDB MOVIE Data Analysis]()
+[Project 3: TMDB MOVIE Data Analysis](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Investigate_a_Dataset.ipynb)
 <br/>**Data Analysis and Visualisation**
 <br/> * Analysing Data associated with The Movie Database (TMDb); including user movies' popularity, budget and revenue, user rating as well as movie runtime and geners.
 
