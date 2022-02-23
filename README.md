@@ -7,7 +7,7 @@ Here you can find data science projects done by me for academic, self learning, 
 In this project, the main goal is to analyze the results of an A/B test run by an e-commerce website and work through this notebook to help the company understand if they should:<br/>Implement the new webpage.<br/>Keep the old webpage.<br/> or Perhaps run the experiment longer to make their decision.
 
 
-[Project 2: Query a Digital Music Store Database using SQL]()
+[Project 2: Query a Digital Music Store Database using SQL](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Queries.txt)
 <br/> * It is acknowledged that Well-designed marketing and Promotional Strategies ensure long-term success, bring in more customers and ensure profitability for businesses. 
 So here, Assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information.
 
