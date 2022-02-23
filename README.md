@@ -9,7 +9,7 @@ In this project, the main goal is to analyze the results of an A/B test run by a
 
 [Project 2: Query a Digital Music Store Database using SQL](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Queries.txt)
 <br/> * It is acknowledged that Well-designed marketing and Promotional Strategies ensure long-term success, bring in more customers and ensure profitability for businesses. 
-So here, Assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. PDF Report [Project 2: Query a Digital Music Store Database using SQL](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Report.pdf)
+So here, Assisting the Chinook team with understanding the media in their store, their customers and employees, and their invoice information. [PDF Report](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Report.pdf)
 
 [Project 3: TMDB MOVIE Data Analysis](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Investigate_a_Dataset.ipynb)
 <br/>**Data Analysis and Visualisation**
