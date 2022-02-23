@@ -15,7 +15,7 @@ So here, Assisting the Chinook team with understanding the media in their store,
 <br/>**Data Analysis and Visualisation**
 <br/> * Analysing Data associated with The Movie Database (TMDb); including user movies' popularity, budget and revenue, user rating as well as movie runtime and geners.
 
-[Project 4: Investigate chemical properties of wine]() **Udacity Case Studies**
+[Project 4: Investigate chemical properties of wine](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Properties%20of%20Wine%20Investigation.ipynb) **Udacity Case Studies**
 <br/> * Full Data Analysis ; Data Cleaning, feature engineering and visualizing for Case Study-1 with the Fundamentals of Python's core Packages for Data Analysis,
     exploring different ways of manipulating data with NumPy and Pandas, as well as powerful visualization tool.s with Matplotlib.
     (Here, We investigate chemical properties of wine, associated with their quality readings.
