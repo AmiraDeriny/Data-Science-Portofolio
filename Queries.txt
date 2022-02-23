@@ -1,0 +1,114 @@
+
+/* Query 1 - query used for insight*/
+SELECT
+  i.BillingCountry,
+  COUNT(*) AS invoices
+FROM Invoice i
+GROUP BY i.BillingCountry
+ORDER BY invoices DESC;
+
+
+
+/* Query 2 - query used for insight*/
+SELECT
+  i.CustomerId,
+  c.City,
+  SUM(i.total) AS total_invoices
+FROM Invoice i
+JOIN customer c
+  ON i.customerid = c.CustomerId
+GROUP BY City
+ORDER BY total_invoices DESC;
+
+
+
+/* Query 3 - query used for insight*/
+SELECT
+  mdt.Name,
+  COUNT(c.CustomerId) AS CustomersUse
+FROM invoiceline il
+JOIN Invoice i
+  ON i.invoiceid = il.InvoiceId
+JOIN customer c
+  ON c.CustomerId = i.CustomerId
+JOIN track t
+  ON t.trackid = il.TrackId
+JOIN mediatype mdt
+  ON mdt.mediatypeid = t.MediaTypeId
+GROUP BY mdt.Name
+ORDER BY CustomersUse DESC;
+
+
+
+/* Query 4 - query used for insight*/
+SELECT
+  c.supportrepid,
+  COUNT(c.customerid) AS Customers,
+  c.country,
+  c.City
+FROM invoice i
+JOIN Customer c
+  ON c.customerid = i.CustomerId
+WHERE Country = ('USA')
+OR City = ('Prague')
+GROUP BY SupportRepId
+ORDER BY Customers DESC;
+
+
+
+/* Query 5 - query used for insight*/
+SELECT
+  a.artistid,
+  a.name AS artistname,
+  COUNT(*) AS songs
+FROM track t
+JOIN Album al
+  ON al.albumid = t.AlbumId
+JOIN Artist a
+  ON a.artistid = al.ArtistId
+JOIN genre g
+  ON t.genreid = g.GenreId
+WHERE g.name = 'Rock'
+GROUP BY artistname
+ORDER BY songs DESC;
+
+
+
+/* Query 6 - query used for insight*/
+SELECT
+  c.CustomerId,
+  c.firstname,
+  c.lastname,
+  c.Email,
+  i.total,
+  g.name
+FROM InvoiceLine il
+JOIN Invoice i
+  ON i.invoiceId = il.InvoiceId
+JOIN Customer c
+  ON c.customerid = i.CustomerId
+JOIN track t
+  ON t.TrackId = il.TrackId
+JOIN genre g
+  ON g.genreid = t.GenreId
+WHERE g.name = "Rock"
+GROUP BY Email
+ORDER BY i.total DESC
+
+
+
+/* Query 7 - query used for insight*/
+SELECT
+  t.Name AS TrackName,
+  alb.Title,
+  art.Name,
+  t.Milliseconds
+FROM track t
+JOIN album alb
+  ON t.albumid = alb.AlbumId
+JOIN Artist Art
+  ON art.ArtistId = alb.ArtistId
+WHERE Milliseconds > (SELECT
+  AVG(milliseconds)
+FROM track t)
+ORDER BY Milliseconds DESC;
