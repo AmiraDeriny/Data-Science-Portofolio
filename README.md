@@ -11,8 +11,7 @@ Titanic Dataset - Exploratory Analysis: Exploratory Analysis of the passengers o
 Micro Projects: Python ML with Logistic Regression: Using Logistic Regression to predict whether an internet user clicked an ad or not.
 
 
-#Project 1: Analyze_ab_test_results
-
+#[Project 1: Analyze_ab_test_results](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Analyze_ab_test_results_notebook.ipynb)
 
 A/B tests are very commonly performed by data analysts and data scientists. For this project, you will be working to understand the results of an A/B test run by an e-commerce website. Your goal is to work through this notebook to help the company understand if they should:
 
