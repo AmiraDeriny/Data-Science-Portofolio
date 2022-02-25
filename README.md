@@ -21,7 +21,7 @@ So here, Assisting the Chinook team with understanding the media in their store,
     (Here, We investigate chemical properties of wine, associated with their quality readings.
      Cleaning, feature engineering and visualizing)
      
-[Project 5: Simpson's Paradox - Admission Case Study]()
+[Project 5: Simpson's Paradox - Admission Case Study](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/simpsons_paradox%20(1)%20-%20Admission%20Case%20Study.ipynb)
 <br/> **Simpson's Paradox - a phenomenon that shows how powerful and dangerous statistics can be.**
 Using the Jupyter notebook to analyze admission_data.csv.
 This case study on gender bias demonstrating how grouping data differently for analysis can make conclusions disappear or even reverse.
