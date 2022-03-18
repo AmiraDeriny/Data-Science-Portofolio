@@ -1,5 +1,5 @@
 ## Data-Science-Portofolio
-Here you can find data science projects done by me for academic, self learning, and hobby purposes.
+Here you can find Data Science projects done by me for academic, self learning, and hobby purposes.
 
 [Project 1: Disney Trends Analysis](https://github.com/AmiraDeriny/Data-Science-Portofolio/blob/main/Disney%20Trends%20Analysis.ipynb)
 <br/>**ML with Logistic Regression Modelling** Should Disney movies make more Action as well as Adventure movies?
